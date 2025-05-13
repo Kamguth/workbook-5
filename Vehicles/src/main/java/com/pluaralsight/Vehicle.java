@@ -1,10 +1,8 @@
 package com.pluaralsight;
 
 public class Vehicle {
-    String color;
-    int numberOfPassengers;
-    int cargoCapacity;
-    int fuelCapacity;
+   private String color;
+   private int numberOfPassengers, cargoCapacity, fuelCapacity;
 
 
     public Vehicle(String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity) {
@@ -44,6 +42,11 @@ public class Vehicle {
 
     public void setFuelCapacity(int fuelCapacity) {
         this.fuelCapacity = fuelCapacity;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
     }
 }
 
