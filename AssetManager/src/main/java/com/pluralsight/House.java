@@ -1,8 +1,8 @@
 package com.pluralsight;
 
 public class House extends Asset {
-    private String address;
-   private int condition, squareFoot, lotSize;
+    protected String address;
+   protected int condition, squareFoot, lotSize;
 
     public House(String description, String dateAcquired, double originalCost, String address, int condition, int squareFoot, int lotSize) {
         super(description, dateAcquired, originalCost);
